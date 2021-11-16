@@ -7,7 +7,7 @@ The  Pima Indians Diabetes Dataset was used for this project. It has two classes
 There are 500 records of healthy patients and 268 records of diabetic patients. This makes this dataset imbalanced. The proportion of the classes are shown in the pie chart below.
 
 
-![alt text](image.jpg)
+![alt text](/diabetes_research_project/charts/pie_chart.png)
 *Pie Chart of the Classes in the Dataset*
 
 
@@ -31,7 +31,7 @@ The metrics used for evaluation are `accuracy`, `recall`, `precision` and `f1-sc
 | KNN | n_neighbors=9, metric='minkowski', p=2 |
 | Random Forest | criterion: 'entropy', min_samples_split: 30, n_estimators: 110 |
 
-*Table 1: Hyperparameters settings *
+*Table 1: Hyperparameters settings*
 
 
 ## RESULTS
@@ -43,12 +43,12 @@ The metrics used for evaluation are `accuracy`, `recall`, `precision` and `f1-sc
 | KNN | 80.73 | 79.17 | 77.58 | 78.23 |
 | Random Forest | 81.25 | 79.86 | 77.98 | 78.73 |
 
-* Table 1: Validation  Accuracy, Precision, Recall and F1-scores *
+*Table 1: Validation  Accuracy, Precision, Recall and F1-scores*
 
 
 
 
-**CONFUSION MATRIX**
+### CONFUSION MATRIX
 
 
 ![alt text](image.jpg)
