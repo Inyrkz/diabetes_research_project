@@ -7,7 +7,7 @@ The  Pima Indians Diabetes Dataset was used for this project. It has two classes
 There are 500 records of healthy patients and 268 records of diabetic patients. This makes this dataset imbalanced. The proportion of the classes are shown in the pie chart below.
 
 
-![alt text](/diabetes_research_project/charts/pie_chart.png)
+![Pie Chart of Dataset Classes](https://github.com/Inyrkz/diabetes_research_project/blob/main/diabetes_research_project/charts/pie_chart.png)
 *Pie Chart of the Classes in the Dataset*
 
 
