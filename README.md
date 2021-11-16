@@ -5,7 +5,7 @@ This research focuses on using some machine learning algorithms to diagnose if a
 ## Methodology
 The  Pima Indians Diabetes Dataset was used for this project. It has two classes which are normal patients and diabetic patients.
 There are 500 records of healthy patients and 268 records of diabetic patients. This makes this dataset imbalanced. The proportion of the classes are shown in the pie chart below.
-https://github.com/Inyrkz/diabetes_research_project/blob/main/diabetes_research_project/
+
 
 ![Pie Chart of Dataset Classes](charts/pie_chart.png)
 
@@ -48,23 +48,25 @@ The metrics used for evaluation are `accuracy`, `recall`, `precision` and `f1-sc
 
 
 
-
 ### CONFUSION MATRIX
 
 
-![alt text](image.jpg)
+![Logisitic Regression Confusion Matrix](charts/LR_CM.png)
+
 Figure 4.0: Logistic Regression Confusion Matrix
 
 
-![alt text](image.jpg)
+![SVM Confusion Matrix](charts/svm_cm.png)
+
 Figure 4.1: SVM Confusion Matrix
 
 
-![alt text](image.jpg)
+![KNN Confusion Matrix](charts/knn_cm.png)
+
 Figure 4.2: KNN Confusion Matrix
 
 
-![alt text](image.jpg)
+![Random Forest Confusion Matrix](charts/random_forest_cm.png)
 Figure 4.3: Random Forest Confusion Matrix
 
 
@@ -82,24 +84,23 @@ In healthcare problems, the goal is to reduce the number of false negatives. The
 
 
 
-![alt text](image.jpg)
+![Accuracy Chart](charts/accuracy_plot.png)
 Figure 4.4: Accuracy chart for each ML model.
 
 
 
-![alt text](image.jpg)
+![Precision Chart](charts/precision_plot.png)
 Figure 4.5: Precision chart for each ML model.
 
 
 
-![alt text](image.jpg)
+![Recall Chart](charts/recall_plot.png)
 Figure 4.6: Recall chart for each ML model.
 
 
-![alt text](image.jpg)
-Figure 4.7: F1-Scorel chart for each ML model.
+![F1-score Chart](charts/f1_plot.png)
+Figure 4.7: F1-Score chart for each ML model.
 
 
-![alt text](image.jpg)
+![Summary of Results](charts/result_summary.png)
 Figure 4.8: Summary of validation accuracy, precision, recall, f1-score  for each ML model.
-
