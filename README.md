@@ -5,9 +5,10 @@ This research focuses on using some machine learning algorithms to diagnose if a
 ## Methodology
 The  Pima Indians Diabetes Dataset was used for this project. It has two classes which are normal patients and diabetic patients.
 There are 500 records of healthy patients and 268 records of diabetic patients. This makes this dataset imbalanced. The proportion of the classes are shown in the pie chart below.
+https://github.com/Inyrkz/diabetes_research_project/blob/main/diabetes_research_project/
 
+![Pie Chart of Dataset Classes](charts/pie_chart.png)
 
-![Pie Chart of Dataset Classes](https://github.com/Inyrkz/diabetes_research_project/blob/main/diabetes_research_project/charts/pie_chart.png)
 *Pie Chart of the Classes in the Dataset*
 
 
