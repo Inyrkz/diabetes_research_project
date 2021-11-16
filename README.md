@@ -27,10 +27,10 @@ The metrics used for evaluation are `accuracy`, `recall`, `precision` and `f1-sc
 
 | ML Algorithms | Hyper-parameters used |
 | ----------- | ----------- |
-| Logistic Regression | C: 0.5, penalty: 'l2' |
-| SVM | kernel: 'rbf’ |
-| KNN | n_neighbors=9, metric='minkowski', p=2 |
-| Random Forest | criterion: 'entropy', min_samples_split: 30, n_estimators: 110 |
+| Logistic Regression | `C: 0.5, penalty: 'l2'` |
+| SVM | `kernel: 'rbf’` |
+| KNN | `n_neighbors=9, metric='minkowski', p=2` |
+| Random Forest | `criterion: 'entropy', min_samples_split: 30, n_estimators: 110` |
 
 *Table 1: Hyperparameters settings*
 
@@ -67,6 +67,7 @@ Figure 4.2: KNN Confusion Matrix
 
 
 ![Random Forest Confusion Matrix](charts/random_forest_cm.png)
+
 Figure 4.3: Random Forest Confusion Matrix
 
 
@@ -77,7 +78,7 @@ Figure 4.3: Random Forest Confusion Matrix
 | KNN | 45 | 15 | 110 | 22 |
 | Random Forest | 45 | 14 | 111 | 22 |
 
-** Table 3: True Positives, False Positives, True Negatives, False Negatives **
+*Table 3: True Positives, False Positives, True Negatives, False Negatives*
 
 
 In healthcare problems, the goal is to reduce the number of false negatives. The false negatives are the patients our model predicted to be healthy, but the fact is that these patients have diabetes. This is why the recall metric is highly considered in the healthcare industry. The higher the recall, the lower the false negatives. The machine learning models that gave us the lowest number of false negatives are the KNN and the Random Forest. 
@@ -85,22 +86,27 @@ In healthcare problems, the goal is to reduce the number of false negatives. The
 
 
 ![Accuracy Chart](charts/accuracy_plot.png)
+
 Figure 4.4: Accuracy chart for each ML model.
 
 
 
 ![Precision Chart](charts/precision_plot.png)
+
 Figure 4.5: Precision chart for each ML model.
 
 
 
 ![Recall Chart](charts/recall_plot.png)
+
 Figure 4.6: Recall chart for each ML model.
 
 
 ![F1-score Chart](charts/f1_plot.png)
+
 Figure 4.7: F1-Score chart for each ML model.
 
 
 ![Summary of Results](charts/result_summary.png)
+
 Figure 4.8: Summary of validation accuracy, precision, recall, f1-score  for each ML model.
